@@ -1,0 +1,74 @@
+.wish-list-container {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .wish-list-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .wish-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .item-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item-priority {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-btn,
+  .update-btn,
+  .move-top-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff5a5f;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .update-priority-input,
+  .add-item-input,
+  .add-priority-input {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .add-item-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .add-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
