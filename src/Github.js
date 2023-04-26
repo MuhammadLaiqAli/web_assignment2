@@ -40,6 +40,8 @@ const Github = () => {
         <ul>
           {users.map((user) => (
             <li key={user.id}>
+
+              
               <img src={user.avatar_url} alt={`${user.login} Avatar`} />
               <span>UserName : <a href={user.html_url} target="_blank" rel="noopener noreferrer">
                 {user.login}
